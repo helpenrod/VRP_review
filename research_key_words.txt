@@ -1,0 +1,45 @@
+ 
+Research 01
+ ("Vehicle Routing Problem" OR "VRP") AND ("heuristic" OR "Metaheuristic" OR "Hyper-heuristic" OR "hyperheuristic")
+
+ Research 02
+  ("vehicle routing problem"
+OR VRP
+OR "routing problem"
+OR "logistics optimization"
+OR "distribution routing")
+AND
+("human in the loop"
+OR "human-in-the-loop"
+OR "interactive optimization"
+OR "interactive evolutionary"
+OR "interactive search"
+OR "decision support"
+OR "decision support system"
+OR "decision maker"
+OR "expert knowledge"
+OR "expert-driven"
+OR "preference-based"
+OR "preference learning"
+OR "multi-criteria"
+OR "multiobjective decision"
+OR "MCDM"
+OR "AHP"
+OR "TOPSIS"
+OR "ELECTRE"
+OR "PROMETHEE")
+AND
+(metaheuristic
+OR "hyper-heuristic"
+OR "hyperheuristic"
+OR "hybrid algorithm"
+OR "hybrid intelligence"
+OR "augmented intelligence"
+OR "machine learning"
+OR "reinforcement learning"
+OR "learning-based"
+OR "surrogate model"
+OR fuzzy
+OR neuro-fuzzy
+OR "cognitive model"
+OR "knowledge-based")
