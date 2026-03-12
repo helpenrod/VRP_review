@@ -1,0 +1,331 @@
+% =========================================================
+% Elsevier journal-ready LaTeX template (elsarticle)
+% Paper: "From Models and Algorithms to Decision Makers..."
+% =========================================================
+% Compile with: pdflatex -> bibtex -> pdflatex -> pdflatex
+% (or use Overleaf with elsarticle)
+%
+% Notes:
+% - Explanations are provided as LaTeX comments (%) and won't appear in PDF.
+% - Replace journal options (e.g., 1p/3p/5p) depending on target journal.
+% - For many Elsevier journals, you may need to use "cas-dc" instead of elsarticle.
+%   This template uses elsarticle because it's widely supported and simple.
+% =========================================================
+
+\documentclass[preprint,12pt]{elsarticle}
+% Options:
+%   preprint      : double-spaced, review-friendly
+%   review        : (some journals) for review formatting
+%   1p / 3p / 5p  : final layout styles (journal-specific)
+
+% ---------------------------------------------------------
+% PACKAGES
+% ---------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % If your compiler is pdfLaTeX. For XeLaTeX/LuaLaTeX, this may be unnecessary.
+\usepackage{lmodern}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{url}
+
+% ---------------------------------------------------------
+% ELSEVIER JOURNAL INFO
+% ---------------------------------------------------------
+\journal{Journal Name Here}
+% % If needed, include Elsevier-specific commands (rare for basic templates).
+
+% ---------------------------------------------------------
+% TITLE/AUTHORS
+% ---------------------------------------------------------
+\begin{document}
+	
+	\begin{frontmatter}
+		
+		\title{From Models and Algorithms to Decision Makers: A Systematic Review of Hybrid Augmented Intelligence in the Vehicle Routing Problem}
+		
+		% % Add affiliations as needed:
+		% \author[inst1]{Helen~Surname}
+		% \ead{helen.email@domain.edu}
+		% \affiliation[inst1]{organization={Universidad Autónoma de Ciudad Juárez},
+			%   addressline={...}, city={Ciudad Juárez}, state={Chihuahua}, country={Mexico}}
+		
+		\author{Author Name(s) Here}
+		\affiliation{organization={Institution(s) Here}}
+		
+		\begin{abstract}
+			% ---------------------------------------------------------
+			% ABSTRACT GUIDELINES (do not show in PDF)
+			% ---------------------------------------------------------
+			% Keep it concise (typically 150--250 words).
+			% Include:
+			% - Context: VRP has moved beyond pure algorithmic optimization toward decision support.
+			% - Objective: PRISMA-based systematic review of hybrid augmented intelligence approaches.
+			% - Methods: databases, screening criteria, taxonomy construction, time window 2015--2025.
+			% - Results: key trends (human-in-the-loop, preference integration, symbolic+subsymbolic AI).
+			% - Contribution: taxonomy + synthesis + gaps + future directions.
+		\end{abstract}
+		
+		\begin{keyword}
+			% ---------------------------------------------------------
+			% KEYWORDS GUIDELINES
+			% ---------------------------------------------------------
+			% Provide 4--8 keywords.
+			Vehicle Routing Problem \sep Augmented Intelligence \sep Human-in-the-loop \sep Hybrid Metaheuristics \sep Preference-based Optimization \sep Decision Support Systems
+		\end{keyword}
+		
+	\end{frontmatter}
+	
+	% =========================================================
+	\section{Introduction}
+	% % Purpose:
+	% % - Establish the problem: logistics decision-making is not only optimization.
+	% % - Motivate hybrid augmented intelligence: humans + algorithms + AI.
+	% % - State contributions and research questions.
+	
+	\subsection{Background: From Optimization Algorithms to Decision-Centered Systems}
+	% % Explain evolution:
+	% % - Classical OR: exact methods, then heuristics/metaheuristics.
+	% % - Modern VRP settings: dynamic constraints, uncertainty, multi-stakeholder goals.
+	% % - Shift: from "optimal routes" to "decision-centered systems".
+	
+	\subsection{Motivation: Why Purely Algorithmic Approaches Are No Longer Enough}
+	% % Discuss insufficiency of purely algorithmic VRP solutions:
+	% % - Static objectives vs evolving business priorities.
+	% % - Multiple criteria and preferences not captured by a single cost function.
+	% % - Need for interpretability, trust, and human acceptance.
+	% % - Data drift, operational disruptions, and human accountability.
+	
+	\subsection{Augmented Intelligence and Human-in-the-Loop Optimization}
+	% % Define:
+	% % - Augmented intelligence: collaboration between AI/optimization and human expertise.
+	% % - Human-in-the-loop: interactive preference elicitation, validation, steering.
+	% % Mention: interactive optimization, DSS, cognitive embedded models.
+	
+	\subsection{Objectives and Contributions of This Review}
+	% % Clearly state:
+	% % - Scope: intersection of VRP + (metaheuristics/optimization) + (MCDM/preferences/HITL) + (symbolic+subsymbolic AI).
+	% % - Period: 2015--2025.
+	% % - Contributions: (i) PRISMA systematic review, (ii) taxonomy, (iii) synthesis of achievements, (iv) gaps + future directions.
+	
+	% =========================================================
+	\section{Conceptual Foundations}
+	% % Purpose:
+	% % Align terminology across OR, AI, decision science.
+	% % Provide minimal background so readers can follow taxonomy and synthesis.
+	
+	\subsection{The Vehicle Routing Problem and Its Variants}
+	% % Include brief definitions of: VRP, CVRP, VRPTW, MDVRP, stochastic/dynamic VRP, rich VRP.
+	% % Explain why VRP is a strong testbed for hybrid/augmented approaches.
+	
+	\subsection{Metaheuristics and Hybrid Optimization}
+	% % Brief overview of metaheuristics used in VRP (GA, ACO, SA, VNS, ALNS, PSO, etc.).
+	% % Explain hybridization in OR:
+	% % - memetic algorithms, matheuristics, hyper-heuristics
+	% % Distinguish from hybrid augmented intelligence (where humans/knowledge are integrated).
+	
+	\subsection{Symbolic and Subsymbolic AI in Optimization}
+	% % Symbolic: rules, constraints, expert systems, knowledge bases, ontologies.
+	% % Subsymbolic: ML, deep learning, RL, surrogate models.
+	% % Explain why VRP increasingly uses both (e.g., rules for feasibility + ML for prediction).
+	
+	\subsection{Decision-Making, Preferences, and Human-in-the-Loop Systems}
+	% % Introduce:
+	% % - MCDM (AHP, TOPSIS, ELECTRE, PROMETHEE) and preference modeling.
+	% % - Preference-based optimization / interactive multiobjective optimization.
+	% % - DSS and cognitive models.
+	% % This section should connect directly to your research questions.
+	
+	% =========================================================
+	\section{Methodology: PRISMA-Based Systematic Review}
+	% % Purpose:
+	% % Provide full reproducibility: protocol, searches, screening, extraction, synthesis.
+	% % Include PRISMA 2020 flow diagram (as figure) in final draft.
+	
+	\subsection{Review Protocol and Research Questions}
+	% % State research questions (RQs) explicitly.
+	% % Example set (adapt to your final framing):
+	% % RQ1: How are humans + heuristics/metaheuristics + symbolic/subsymbolic AI combined in VRP decision-making?
+	% % RQ2: Why are purely algorithmic approaches insufficient in the reviewed settings?
+	% % RQ3: Where and how is expert knowledge integrated (rules, preferences, cognitive models)?
+	% % RQ4: What outcomes/benefits are reported (solution quality, decision quality, robustness, usability)?
+	% % RQ5: What gaps remain (evaluation, benchmarks, reproducibility)?
+	
+	\subsection{Search Strategy}
+	% % Describe databases (e.g., Scopus, Web of Science, IEEE Xplore, ACM, Springer, ScienceDirect).
+	% % Provide complete search strings (appendix if long).
+	% % Set time window: 2015--2025.
+	% % Mention backward/forward snowballing if used.
+	
+	\subsection{Inclusion and Exclusion Criteria}
+	% % Inclusion examples:
+	% % - VRP (or variants) AND hybrid approach involving at least two of:
+	% %   (metaheuristics/optimization) + (symbolic/subsymbolic AI) + (human interaction/preferences/decision support).
+	% % - Peer-reviewed (journals/conferences) depending on scope.
+	% % Exclusion examples:
+	% % - Purely algorithmic VRP studies with no decision/human/preference/knowledge aspect.
+	% % - Non-routing logistics unless explicitly tied to VRP decision support.
+	% % Clarify language restrictions (English-only?) if applied.
+	
+	\subsection{Study Selection Process}
+	% % Describe the PRISMA stages:
+	% % - Identification -> Screening -> Eligibility -> Included.
+	% % Report record counts at each stage.
+	% % Mention deduplication method and screening tools (Rayyan, Zotero, etc.) if used.
+	
+	\subsection{Data Extraction and Classification Framework}
+	% % Provide the extraction schema:
+	% % - Bibliographic info, VRP variant, objectives (single/multi), uncertainty/dynamics.
+	% % - Algorithmic methods (metaheuristic, matheuristic, exact).
+	% % - AI components (ML, RL, surrogate, fuzzy, rules, ontology).
+	% % - Human role (preference elicitation, steering, validation, tuning).
+	% % - Evaluation (benchmarks, real data, user studies, deployment).
+	% % Explain how taxonomy categories were derived (deductive, inductive, mixed).
+	
+	% =========================================================
+	\section{Taxonomy of Hybrid Augmented Intelligence Approaches}
+	% % Purpose:
+	% % Present your main organizing framework and classification of studies.
+	% % This should directly answer multiple RQs.
+	
+	\subsection{Dimensions of Hybridization}
+	% % Define your taxonomy axes, e.g.:
+	% % (A) Optimization layer: metaheuristics / matheuristics / exact hybrids.
+	% % (B) Intelligence layer: symbolic / subsymbolic / fuzzy / preference learning.
+	% % (C) Human layer: interactive optimization / DSS / cognitive embedding.
+	% % Provide a table summarizing dimensions and codes used in extraction.
+	
+	\subsection{Role of the Human in the Loop}
+	% % Classify human participation modes, e.g.:
+	% % - Offline: expert-designed rules, constraint modeling, parameter setting.
+	% % - Online: interactive preference elicitation, solution steering, acceptance/rejection feedback.
+	% % - Oversight: validation, interpretability, accountability, exception handling.
+	
+	\subsection{Knowledge Integration Mechanisms}
+	% % Explain how expert knowledge enters:
+	% % - Rule injection, constraint shaping.
+	% % - Fuzzy linguistic preferences and membership functions.
+	% % - Learned preference models and surrogate-assisted search.
+	% % - Hybrid symbolic–subsymbolic architectures (rules + ML).
+	
+	\subsection{Architectural Patterns}
+	% % Identify patterns commonly found in the literature:
+	% % - ML-assisted metaheuristics (predict costs, feasibility, demand, travel times).
+	% % - Surrogate models accelerating evaluation.
+	% % - Preference-based multiobjective VRP with interactive methods.
+	% % - Rule-based controllers orchestrating operators (hyper-heuristics).
+	% % - Cognitive/decision-maker models embedded in the loop.
+	
+	% =========================================================
+	\section{Synthesis of Results (2015--2025)}
+	% % Purpose:
+	% % Summarize findings across studies, not paper-by-paper but theme-by-theme.
+	% % Include descriptive statistics: counts by year, method type, VRP variant, evaluation style.
+	
+	\subsection{Trends in Hybrid AI for VRP}
+	% % Discuss temporal evolution:
+	% % - Early years: hybrid metaheuristics + fuzzy + DSS.
+	% % - Mid period: surrogates, learning-guided search.
+	% % - Recent: preference learning, interactive systems, more realistic datasets.
+	% % Provide evidence: plots/tables of trends (years vs categories).
+	
+	\subsection{Reported Achievements}
+	% % Summarize what was actually achieved:
+	% % - Better trade-off handling (multiobjective, preferences).
+	% % - Robustness (uncertainty, dynamics).
+	% % - Computational improvements (surrogates, learned heuristics).
+	% % - Usability/acceptance (when evaluated).
+	% % Distinguish: solution quality vs decision quality.
+	
+	\subsection{Limitations of Purely Algorithmic Approaches}
+	% % Provide synthesized arguments supported by evidence:
+	% % - When objectives are uncertain or stakeholder-dependent.
+	% % - When interpretability is needed for adoption.
+	% % - When real-time changes require human judgment.
+	% % Tie back to your motivation and RQ2.
+	
+	\subsection{Integration of Expert Knowledge}
+	% % Identify where expert knowledge appears:
+	% % - Model design: constraints, objectives, feasibility rules.
+	% % - Search design: operator selection, heuristic rules.
+	% % - Decision layer: ranking, preference articulation, acceptance criteria.
+	% % Discuss how frequently and how explicitly studies document expert input.
+	
+	% =========================================================
+	\section{Discussion: Toward Decision-Centered Optimization}
+	% % Purpose:
+	% % Interpret results, connect to broader theory, highlight gaps.
+	
+	\subsection{From Solving VRPs to Supporting Decisions}
+	% % Argue: VRP is increasingly a socio-technical decision problem.
+	% % Discuss implications for evaluation, reporting, and system design.
+	
+	\subsection{Augmented Intelligence vs Full Automation}
+	% % Compare the paradigms:
+	% % - Automation: maximize objective(s) with minimal human involvement.
+	% % - Augmentation: human expertise improves relevance, trust, adaptability.
+	% % Discuss explainability, transparency, and accountability.
+	
+	\subsection{Open Challenges and Research Gaps}
+	% % Examples:
+	% % - Lack of standardized benchmarks for HITL VRP.
+	% % - Weak evaluation of decision quality and human factors (time, cognitive load).
+	% % - Reproducibility issues (private datasets, missing code).
+	% % - Need for stronger symbolic–subsymbolic integration frameworks.
+	% % - Missing cognitive models of decision makers.
+	
+	% =========================================================
+	\section{Future Research Directions}
+	% % Provide concrete directions, e.g.:
+	% % - Cognitive digital twins for decision makers.
+	% % - Adaptive preference learning integrated with metaheuristics.
+	% % - Explainable hybrid search and transparent rule+ML fusion.
+	% % - Real-time interactive optimization under uncertainty.
+	% % - Protocols for evaluating decision quality (beyond objective value).
+	
+	% =========================================================
+	\section{Threats to Validity}
+	% % Discuss threats typical for systematic reviews:
+	% % - Publication bias and venue bias.
+	% % - Terminology fragmentation (papers use different labels for similar ideas).
+	% % - Database coverage limitations.
+	% % - Screening and coding subjectivity.
+	% % - Time window limitations (2015--2025).
+	
+	% =========================================================
+	\section{Conclusions}
+	% % Summarize main claims supported by synthesis:
+	% % - Hybrid augmented intelligence is increasingly central in VRP.
+	% % - Purely algorithmic solutions often fail to capture decision realities.
+	% % - Human expertise is integrated via preferences, rules, validation, and interactive loops.
+	% % - Important research gaps remain in evaluation and cognitive integration.
+	
+	% =========================================================
+	% REFERENCES
+	% =========================================================
+	% Elsevier often recommends using natbib with elsarticle.
+	% elsarticle loads natbib by default; citations:
+	%   \citet{key} for textual, \citep{key} for parenthetical.
+	
+	\bibliographystyle{elsarticle-num}
+	% Alternatives:
+	% \bibliographystyle{elsarticle-harv} % author-year
+	% \bibliographystyle{elsarticle-num-names}
+	
+	\bibliography{references}
+	
+	% =========================================================
+	% APPENDICES (optional)
+	% =========================================================
+	% \appendix
+	% \section{Full Search Strings}
+	% % Put complete database queries here for reproducibility.
+	%
+	% \section{Data Extraction Form}
+	% % Include your coding schema/table.
+	
+\end{document}

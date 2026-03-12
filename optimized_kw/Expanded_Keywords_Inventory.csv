@@ -1,0 +1,313 @@
+VRP_Keywords,Human_Keywords,Heuristic_Keywords
+dynamic service routing,multi-criteria,routing and scheduling model
+road–rail intermodal routing,fuzzy multi-attribute decision-making (fuzzy madm),fuzzy multi-attribute decision-making (fuzzy madm)
+bi-objective optimization problem,preference learning,preference learning
+two-echelon vrp,"multi-criteria decision making, analytical hierarchy process",data-driven
+capacitated vehicle routing problem with time windows,multi-objective transportation,simulation-based optimization
+location problem,real-time decision-making,hybrid models
+vehicle routing problem with route balancing,multi-criteria routing,hybrid metaheuristics
+production routing problem,multi-criteria decision-making (mcdm),heuristic algorithm
+unmanned ground vehicle,risk preference,reinforcement learning-assisted evolutionary computing
+p-hub location routing,technique for order preference by similarity to ideal solution,simulation model
+real life vehicle routing,the pareto set,simulated annealing algorithm learning
+network design problem,multi-attribute decision making,agentic intelligence
+maritime routing,collaborative decision attention network,bilevel optimization model
+inventory-routing problem,multi-criteria vehicle routing problem,hybrid genetic algorithm
+non-ambulatory vehicle,multi-objective vehicle routing,hybrid transportation
+location-inventory-routing problem,partial observation markov decision process,hybrid ai
+autonomous aerial vehicle,decision support,hybrid optimization technique
+robust aircraft maintenance routing problem (ramrp),the vehicle routing problem (vrp),predictive model
+the vehicle routing problem (vrp),multi-agent decision,fuzzy
+green vehicle routing problem with time windows (gvrptw),data-driven decision making,reinforcement learning (rl) and deep reinforcement learning (drl)
+capacitated arc routing problem,integrated decision making,location routing model
+traveling salesman problem,the ant colony algorithm,data-driven solution approach
+routing optimization,multi-objective decision making,offline reinforcement learning
+drone-based cooperative ev routing problem,preference-based vehicle routing,learning (artificial intelligence)
+disaster logistics,multi-criteria optimization,hybrid pso and alns metaheuristics
+multi-trip capacitated arc routing problem,multi-objective problem,fuzzy goal programming model
+rich routing problems,decision making process,hybrid ant colony optimization
+vehicle routing software selection,hierarchical decision making,fuzzy delphi
+evacuation routing,decision support tool,fuzzy logic
+hybrid vehicle-drone routing,multiple attribute decision making,hybrid meta-heuristic algorithm
+capacitated vehicle location-routing problem,patient preference satisfaction,hybrid model
+distribution,decision tree,fuzzy time windows
+vehicle routing software,multi objective programming,hyper-heuristics
+aircraft routing problem,technique for order preference by similarity to ideal solution (topsis),heuristic
+distribution network design,sequential decision-making problem,data-driven delivery
+preference-based vehicle routing,decision-focused learning,hybrid fuzzy c-means (hfcm)
+particle routing,multi-objective optimization,online learning
+multi-objective problem,multicriteria decision,fuzzy electre i
+heterogeneous fleet vehicle routing problem,multi criteria decision making,explainable artificial intelligence
+collaborative feeder vehicle routing problem,knowledge-based optimization,fuzzy numbers
+energy-aware routing,weighted multi-attribute user preference,hybrid heuristic algorithm
+intermodal routing,real-time decision making,hybrid energy replenishment mode
+medical logistics networks,semi-markov decision process,hybrid heuristics
+routing problem,multi-objective evolutionary algorithm based on decomposition,fuzzy hybrid meta-heuristic algorithms
+humanitarian logistics,multi-vehicle system,interval type-2 fuzzy logic controller
+real-world problem,routing decision,integrated machine learning and optimization
+e-commerce logistics,expert system,hybrid variable neighborhood search
+parcel logistics,combinatorial decision space,q-learning algorithm
+green vehicle routing problem (gvrp),data-driven modeling,meta-learning
+fuel-efficient green vehicle routing,decision-support system,reinforcement learning control
+integrated order batching and picker routing (iobpr) problem,knowledge-guided learning,wave-based algorithm
+location-routing problems,multi-criteria decision-making,attention model
+traveling purchaser problem,constrained markov decision process,fuzzy facility location problem
+vehicle synchronization,decision support system,large language model
+auto carrier routing and loading,multi-objective programming,teaching learning optimization
+humanitarian relief logistics,bdi-based decision making,metaheuristic
+routing,intelligent decision support system (idss),fuzzy inference system
+dynamic heterogeneous vehicle routing problem,multi-criteria decision making,data-driven decision making
+smart logistics,preference selection index,fuzzy programming model
+assignment problem,interactive vrp,bayesian reinforcement learning
+periodic vehicle routing problem,multiobjective optimization,hybrid vehicle-drone routing
+bi-directional logistics,multi objective optimization,fuzzy number
+city logistics,decision-making,artificial intelligence
+vehicle routing problem with time windows,fuzzy decision making,learning from demonstrations
+first-mile problem,closed-loop supply chain,fuzzy linear programming
+two-echelon location routing problem,the technique for order preference by similarity to ideal solution,interval fuzzy linear optimization model
+data-driven routing and scheduling,multi-objective,preference-based vehicle routing
+intermodal routing problem,human-ai collaboration,machine learning
+urban logistics,decision analysis,transformer model
+multi-depot routing,the simulated annealing algorithm,hybrid simulated annealing
+customized bus routing problem,multi-preference routing,adaptive learning strategy
+dairy logistics,participants’ preference satisfaction,hybrid genetic beam search
+dial-a-ride problem,sequential decision-making,fuzzy optimization
+pollution routing problem,decision making,real-time traffic learning
+multi-depot vehicle routing problem,dynamic multi-objective optimization,fuzzy logic optimization
+energy-efficient routing,multicriteria decision making,reinforcement learning algorithms
+rich vehicle routing problem,markov decision process,hybrid solution approach
+electric vehicle,smart decision-making,hybrid gray wolf
+hazardous materials routing,multiobjective evolutionary algorithm,fuzzy game
+production-distribution integration,decision-making support,transfer learning
+multi-objective vehicle routing problem,uncertain decision-making environment,fuzzy vikor
+vehicle route problem,decision support systems,data-driven concept
+stochastic dynamic vehicle routing problem,multicriteria optimization,fuzzy neutrosophic
+time-dependent vehicle routing,multi-objective scheduling,hybrid learning architectures
+integrated production-inventory-routing problem,interactive madm,graph representation learning
+location-routing optimization,markov decision process (mdp),attention-based models
+two-echelon inventory-routing,decentralized decision-making,hybrid metaheuristic
+humanitarian aid distribution,fuzzy hierarchical technique for order preference by similarity to ideal solution (topsis),supervised learning
+fuzzy facility location problem,,fuzzy measure
+multi-compartment vehicle routing problem,,fuzzy arithmetic
+consolidated distribution,,decision-focused learning
+uavs routing optimization,,hybrid electric vehicles
+urban rail transit routing problem,,q learning
+transit network design problem,,robust integrated model
+maritime inventory routing,,data-driven optimization
+electric vehicle routing problems,,multi-agent graph reinforcement learning
+truck routing,,deep learning
+inbound inventory routing problem,,fuzzy multi-objective programming
+sustainable logistics,,surrogate experiential learning
+multi-trip vehicle routing problem,,fuzzy methods
+green logistics,,random fuzzy variable
+multi-objective location-routing,,optimisation model
+sequential decision-making problem,,multiagent reinforcement learning (marl)
+logistics planning,,knowledge-based optimization
+inventory routing,,reinforcement learning
+logistics,,multi-objective evolutionary algorithm based on decomposition
+multi-vehicle systems,,dynamic hybrid temporal attention model
+truck-drone routing problem,,learning-communication
+distribution priority,,data-driven modeling and simulation
+location-routing,,fuzzy objective function
+medication distribution,,fuzzy theory
+school bus routing,,two-stage hybrid heuristic algorithm
+two-echelon collaborative location routing problem,,artificial intelligence algorithms
+truck–drone logistics,,fuzzy set
+secure routing,,hybrid meta-heuristic
+employee bus routing problem,,hybrid commercial drones
+set covering problem,,hybrid algorithms
+multi-criteria partitioning problem,,metaheuristic algorithm
+capacitated electric vehicle routing,,fuzzy demand
+fixed charge problem,,swarm intelligence optimization algorithm
+rich vehicle routing problems,,agent-based model
+vehicle priority,,data-driven modeling
+location-routing problem,,deep reinforcement learning
+electric vehicles routing problem,,hims+ model
+cold chain logistics,,fuzzy simulation
+inventory routing problem,,simulation-based approach
+multi-preference routing,,multi-objective model
+vehicle routing problem,,fuzzy random variable
+truck-and-drone logistics,,disentangled representation learning
+relief distribution,,knowledge-guided learning
+last-mile relief distribution,,deep q-learning
+dynamic optimization problem,,time-dependent hybrid recharging
+cumulative multidepot vehicle routing problem (cum-mdvrp),,interval fuzzy demand
+b2b urban distribution,,fuzzy clustering algorithm
+capacitated vehicle routing problem,,reinforcement learning (rl)
+production-inventory-routing problem,,fuzzy mathematical programming
+vehicle selection,,hybrid algorithm
+vehicle routing applications,,federated learning
+multi depot vehicle routing problem,,learning to optimize
+routing and scheduling model,,hybrid strategy optimization
+vehicle routing problem with simultaneous pickup and delivery (vrpspd),,genetic programming hyper heuristic (gphh)
+multi-objective facility location problem,,reward model
+two-echelon routing,,computational intelligence
+qos routing,,fuzzy sets
+capacity vehicle routing problem,,multi-agent reinforcement learning
+cumulative capacitated vehicle routing problem,,generalised fuzzy
+multi-criteria routing,,simulation-based reliability
+vehicle sharing mode,,logic-based benders decomposition
+autonomous electric vehicle,,fuzzy programming
+emergency logistics,,meta-heuristics and hybrid optimization techniques
+aircraft routing,,fuzzy decision making
+close-open mixed vehicle routing problem,,local search based metaheuristic
+location routing model,,hybrid genetic
+urban transit routing problem,,fuzzy proposition
+emergency support material distribution,,fuzzy objective functions
+dynamic vehicle routing problem,,imitation learning
+emergency logistics optimisation,,compact model
+hub location problem,,task allocation model
+location and routing problem,,swarm intelligence algorithms
+relocation-routing problem fuzzy variable,,fuzzy environment
+routing and network design,,hyperheuristic
+vehicle-drone cooperative delivery,,fuzzy demands
+vehicle-size matching,,fuzzy nonlinear optimization model
+vehicle routing problem (vrp),,fuzzy techniques
+multi-criteria vehicle routing problem,,fuzzy ranking
+connected and automated vehicle,,data-driven routing and scheduling
+dynamic and stochastic vehicle routing problems,,fuzzy ahp
+airline scheduling problem,,adaptive hybrid algorithm
+dynamic routing,,fuzzy inference
+milk collection problem,,hybrid genetic algorithm with large neighborhood search
+drone routing,,multi-agent deep reinforcement learning (drl)
+prize-collecting vehicle routing problem,,fuzzy dematel
+home health care scheduling and routing problem,,hybrid flow shop scheduling
+arc routing problem,,cognitive routing
+capacitated vehicle routing,,temporal multimodal learning
+orienteering problem,,scenario-based approach
+location routing problem,,hybrid augmented ant colony optimization
+vehicle power modeling and simulation,,hyper-heuristic
+electric truck routing,,fuzzy uncertainty
+vehicle compartment partition strategy,,distributed artificial intelligence
+green vrp,,fuzzy dynamic programming
+travelling salesman problem,,crowd-enhanced hybrid task scheduling
+electric vehicle routing,,q-learning
+electric vehicle routing problem with drones,,hybrid wind-municipal solid waste biomass power plant
+problem framing,,multi-agent deep hierarchical reinforcement learning
+open vehicle routing problem,,hybrid distribution
+location-allocation-routing,,deep reinforcement learning (drl)
+optimization of parcel distribution,,mathematical model
+cooperative logistics,,
+vehicle routing problem with drone,,
+routing decision,,
+dynamic electric vehicle routing,,
+modified vehicle routing problem with time windows (m-vrptw),,
+school bus routing problem,,
+station location problem,,
+outbound logistics,,
+green logistics system,,
+periodic capacitated vehicle routing problem,,
+"micro-service, multi-trip vehicle routing problem",,
+vehicle-routing problem,,
+vehicle routing optimization with time windows,,
+interactive vrp,,
+coordination of multiple vehicle systems,,
+logistics 4.0,,
+fresh food distribution,,
+green routing,,
+two-hop trajectory-based routing (thtr),,
+service-oriented cooperative vrp (soc-vrp),,
+vehicle-to-grid,,
+vehicle breakdown,,
+vehicular network routing,,
+roads routing problem,,
+transportation-location-routing,,
+traffic-aware routing,,
+real-time routing,,
+location routing optimization with time windows,,
+parameter setting problem,,
+electric vehicle charging,,
+collaborative city logistics,,
+multi-objective vehicle routing problems,,
+patrol routing optimization,,
+vehicles routing problem,,
+stochastic dynamic inventory-routing,,
+rural logistics,,
+sustainable vehicle routing problem,,
+collaborative electric vehicle routing problem,,
+partitioning problem,,
+integrated production scheduling and vehicle routing,,
+multidepot vehicle routing problem with time windows,,
+vehicle routing optimization,,
+vehicle routing problem with time window,,
+vehicle routing,,
+arc routing,,
+discrete optimization choice problem,,
+vehicle to everything (v2x),,
+shared capacity routing,,
+unmanned aerial vehicle,,
+dynamic vehicle routing,,
+multi-objective vehicle routing,,
+uncertain capacitated arc routing problem,,
+automated guided vehicle,,
+cumulative capacitated vehicle routing,,
+multiperiod stochastic problem,,
+routing network,,
+autonomous vehicle,,
+generalised assignment problem,,
+routing and scheduling,,
+location-routing problem (lrp),,
+fleet assignment problem,,
+selective multi-depot vehicle routing problem,,
+collaborative inventory-location-routing problem,,
+clustering routing,,
+electric vehicle routing problem,,
+electric vehicle delivery,,
+transshipment problem,,
+team orienteering problem,,
+multi-depot vehicle routing,,
+supply chain logistics,,
+energy-efficient vehicle routing,,
+time dependent vehicle routing problem,,
+healthcare logistics,,
+last-mile logistics,,
+vehicle navigation,,
+production-routing problem (prp),,
+internet of vehicle,,
+adaptive routing,,
+capacitated facility location problem,,
+disaster relief location-routing problem,,
+last-mile distribution,,
+packet routing,,
+electric autonomous vehicle,,
+multi-vehicle system,,
+multimodal routing,,
+waste collection problem,,
+mathematical optimization problem,,
+multi-drone-truck logistics,,
+algae fuel distribution network,,
+adaptive vehicle routing,,
+heterogeneous capacitated vehicle routing problem,,
+heterogeneous vehicle routing,,
+fish feed distribution,,
+post box collection routing,,
+time-dependent routing,,
+bi-level location-routing optimization,,
+routing and scheduling problem,,
+routing and loading optimisation,,
+green capacitated vehicle routing problem,,
+eco-routing,,
+multidepot vehicle routing problem,,
+intermodal freight routing,,
+open vehicle routing,,
+water distribution,,
+reverse logistics,,
+multi-depot open vehicle routing problem,,
+urban ev routing,,
+vehicle tracking,,
+fuzzy hierarchical location-routing problem,,
+green vehicle routing problem,,
+vrp,,
+time windows vehicle routing problem (twvrp),,
+capacitated location-routing problem,,
+ship routing,,
+cognitive routing,,
+user preferred routing,,
+vehicle,,
+routing problems,,
+cold-chain logistics,,
+vehicle routing problems,,
+collaborative vehicle routing,,
+problem decomposition,,
+pharmaceutical distribution,,
+hybrid distribution,,

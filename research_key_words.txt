@@ -43,3 +43,73 @@ OR fuzzy
 OR neuro-fuzzy
 OR "cognitive model"
 OR "knowledge-based")
+
+Research 03
+("vehicle routing problem" OR VRP OR "routing problem" OR "logistics optimization" OR "distribution routing") AND ("interactive optimization" OR "interactive evolutionary" OR "interactive search" OR "decision support" OR "decision support system" OR "decision maker" OR "expert knowledge" OR "expert-driven" OR "preference-based" OR "preference learning" OR "MCDM" OR "AHP" OR "TOPSIS" OR "ELECTRE" OR "PROMETHEE") AND (metaheuristic OR "hyper-heuristic" OR "hyperheuristic" OR "hybrid algorithm" OR "hybrid intelligence" OR "augmented intelligence" OR "machine learning" OR "reinforcement learning" OR "learning-based" OR "surrogate model" OR fuzzy OR "cognitive model" OR "knowledge-based") AND  ("decision maker" OR  "human" OR  "preference elicitation" OR  "participatory")
+
+Research 04
+("vehicle routing problem" OR VRP OR "routing problem" OR "logistics optimization" OR "distribution routing") AND ("human in the loop" OR "human-in-the-loop" OR "cognitive model")
+
+Search 05
+
+("vehicle routing problem"
+ OR VRP
+ OR "vehicle routing"
+ OR "routing problem"
+ OR "distribution routing"
+ OR "logistics routing")
+AND
+(
+    "human in the loop"
+    OR "human-in-the-loop"
+    OR "interactive optimization"
+    OR "interactive evolutionary"
+    OR "interactive search"
+    OR "interactive multiobjective"
+    OR "decision support"
+    OR "decision support system"
+    OR "decision-making"
+    OR "decision maker"
+    OR "decision-maker"
+    OR "expert knowledge"
+    OR "expert-driven"
+    OR "user-guided"
+    OR "participatory"
+    OR "multi-criteria"
+    OR "multicriteria"
+    OR "multi-objective decision"
+    OR MCDM
+    OR AHP
+    OR TOPSIS
+    OR ELECTRE
+    OR PROMETHEE
+    OR "preference-based"
+    OR "preference learning"
+    OR "preference elicitation"
+    OR "preference modeling"
+    OR ("preference" AND (decision OR "decision maker" OR multiobjective OR optimization))
+  )
+AND
+  (
+    metaheuristic
+    OR "hyper-heuristic"
+    OR hyperheuristic
+    OR "hybrid"
+    OR "hybrid algorithm"
+    OR "hybrid approach"
+    OR "hybrid method"
+    OR "hybrid intelligence"
+    OR "augmented intelligence"
+    OR "machine learning"
+    OR "reinforcement learning"
+    OR "deep learning"
+    OR "learning-based"
+    OR "learning guided"
+    OR "surrogate model"
+    OR fuzzy
+    OR "fuzzy logic"
+    OR "neuro-fuzzy"
+    OR "cognitive model"
+    OR "knowledge-based"
+    OR "data-driven"
+)
