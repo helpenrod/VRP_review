@@ -30,46 +30,72 @@ The review focuses on the intersection between:
 
 ## 🔎 Search Strategy
 
-Three structured OpenAlex searches were conducted.
+A search on Scopus was conducted, spliting the keywords into 3 groups: VRP, Hyper-heuristc and Human. These are the words included in each group:
 
-### Research 01 – Algorithmic Baseline
+- **VRP**
+("vehicle routing problem"
+ OR VRP
+ OR "vehicle routing"
+ OR "routing problem"
+ OR "distribution routing"
+ OR "logistics routing")
 
-Purpose:
-- Map the traditional metaheuristic VRP landscape.
-- Identify dominant authors, countries, and institutions.
+ - **Human**
+ (
+    "human in the loop"
+    OR "human-in-the-loop"
+    OR "interactive optimization"
+    OR "interactive evolutionary"
+    OR "interactive search"
+    OR "interactive multiobjective"
+    OR "decision support"
+    OR "decision support system"
+    OR "decision-making"
+    OR "decision maker"
+    OR "decision-maker"
+    OR "expert knowledge"
+    OR "expert-driven"
+    OR "user-guided"
+    OR "participatory"
+    OR "multi-criteria"
+    OR "multicriteria"
+    OR "multi-objective decision"
+    OR MCDM
+    OR AHP
+    OR TOPSIS
+    OR ELECTRE
+    OR PROMETHEE
+    OR "preference-based"
+    OR "preference learning"
+    OR "preference elicitation"
+    OR "preference modeling"
+    OR ("preference" AND (decision OR "decision maker" OR multiobjective OR optimization))
+  )
 
----
-
-### Research 02 – Hybrid Intelligence Layer
-
-Includes decision-support, interactive optimization, MCDM, ML, fuzzy systems, and hybrid AI terms combined with VRP.
-
-Purpose:
-- Capture hybrid algorithmic systems.
-- Detect integration of AI methods with decision frameworks.
-
----
-
-### Research 03 – Explicit Human/Decision-Maker Focus
-
-Targets:
-- Human-in-the-loop
-- Interactive optimization
-- Preference elicitation
-- Participatory decision systems
-
-Purpose:
-- Identify explicit cognitive and decision-maker integration.
-
----
-
-## 📊 Conceptual Structure
-
-| Search | Conceptual Role |
-|--------|----------------|
-| Research 01 | Algorithmic VRP ecosystem |
-| Research 02 | Hybrid AI + decision-support layer |
-| Research 03 | Human-centered optimization systems |
+- **Hyper-heuristic**
+(
+    metaheuristic
+    OR "hyper-heuristic"
+    OR hyperheuristic
+    OR "hybrid"
+    OR "hybrid algorithm"
+    OR "hybrid approach"
+    OR "hybrid method"
+    OR "hybrid intelligence"
+    OR "augmented intelligence"
+    OR "machine learning"
+    OR "reinforcement learning"
+    OR "deep learning"
+    OR "learning-based"
+    OR "learning guided"
+    OR "surrogate model"
+    OR fuzzy
+    OR "fuzzy logic"
+    OR "neuro-fuzzy"
+    OR "cognitive model"
+    OR "knowledge-based"
+    OR "data-driven"
+)
 
 ---
 
